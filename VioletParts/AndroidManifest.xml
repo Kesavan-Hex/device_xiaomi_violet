@@ -48,7 +48,7 @@
         <activity
             android:name=".DeviceSettingsActivity"
             android:exported="false"
-            android:icon="@drawable/ic_mi"
+            android:icon="@drawable/ic_violet"
             android:label="@string/advanced_settings"
             android:launchMode="singleTask">
             <intent-filter>
