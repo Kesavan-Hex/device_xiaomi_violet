@@ -243,5 +243,8 @@ WPA_SUPPLICANT_VERSION := VER_0_8_X
 # Enable real time lockscreen charging current values
 BOARD_GLOBAL_CFLAGS += -DBATTERY_REAL_INFO
 
+# ANXCamera
+include vendor/aeonax/ANXCamera/BoardConfigAnx.mk
+
 # Inherit from the proprietary version
 include vendor/xiaomi/violet/BoardConfigVendor.mk
