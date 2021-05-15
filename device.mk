@@ -39,10 +39,6 @@ PRODUCT_CHARACTERISTICS := nosdcard
 TARGET_SCREEN_HEIGHT := 2340
 TARGET_SCREEN_WIDTH := 1080
 
-# ANXCamera
-$(call inherit-product-if-exists, vendor/aeonax/ANXCamera/anx-vendor.mk)
-
-
 # HALs
 PRODUCT_SOONG_NAMESPACES += \
     hardware/qcom-caf/sm8150/display \
